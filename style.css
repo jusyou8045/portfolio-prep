@@ -1,0 +1,74 @@
+/* Set ALL HTML elements with border-box sizing */
+* {
+    box-sizing: border-box;
+  }
+  
+  body{
+    background: #e1eaed;
+  }
+
+  .banner, 
+        .bottom{
+    background-color: black;
+    color: white;
+    
+  }
+
+  h1,
+    .copy{
+    font-family: Papyrus, 'Lucida Handwriting', Arial;
+    margin: 0px;
+    padding: 10px 0px 0px 0px;
+    text-align: center;
+  }
+  
+  .enlarge{
+    font-size: 16pt;
+    margin-bottom: 2%;
+    margin-top: 0%;
+  }
+  nav a{
+    padding: 0 5px 0 5px;
+    font-size: 14pt;
+  }
+
+  img{
+    text-align: center;
+    display: block;
+    width: 35%;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 15px auto 15px auto;
+  }
+
+  .center{
+    margin-left: auto;
+    margin-right: auto;
+    width: 25em
+  }
+
+  .moveit{
+  text-align: center;
+}
+
+  .copy{
+    margin: 5px auto 5px auto;
+}
+
+/* Use of Psuedo classes*/  
+/* unvisited link */
+a:link {
+  color: #2844e6;
+}
+/* visited link */
+a:visited {
+  color: #e531ee;
+}
+/* mouse over link */
+a:hover {
+  color: #eb3939;
+}
+/* selected link */
+a:active {
+  color: #4fd58b;
+}
