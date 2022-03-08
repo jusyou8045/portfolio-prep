@@ -62,6 +62,12 @@
   .email{
     font-size: 18pt;
   }
+
+  .email:link{
+    font-family: 'open sans',arial,sans-serif;
+    color: rgb(118, 0, 0);
+  }
+
 /* Use of Psuedo classes*/  
 /* unvisited link */
 nav a:link {
@@ -80,15 +86,8 @@ nav a:active {
   color: #4fd58b;
 }
 
-.email:link{
-  font-family: 'open sans',arial,sans-serif;
-  color: rgb(118, 0, 0);
-}
-.email:visited{
-  color: rgb(46, 55, 3);
-}
-
-.bigger{
+.bigger a{
   font-size: 18pt;
   font-family: 'open sans',arial,sans-serif;
+  color: rgb(118, 0, 0);
 }
