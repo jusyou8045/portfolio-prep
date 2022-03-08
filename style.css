@@ -23,13 +23,13 @@
   }
   
   .enlarge{
-    font-size: 16pt;
+    font-size: 20pt;
     margin-bottom: 2%;
     margin-top: 0%;
   }
   nav a{
     padding: 0 5px 0 5px;
-    font-size: 14pt;
+    font-size: 18pt;
     font-family: 'open sans',arial,sans-serif;
   }
 
@@ -58,18 +58,33 @@
 
 /* Use of Psuedo classes*/  
 /* unvisited link */
-a:link {
+nav a:link {
   color: #ffffff;
 }
 /* visited link */
-a:visited {
+nav a:visited {
   color: #e531ee;
 }
 /* mouse over link */
-a:hover {
+nav a:hover {
   color: #eb3939;
 }
 /* selected link */
-a:active {
+nav a:active {
   color: #4fd58b;
+}
+
+
+.email:link{
+    font-family: 'open sans',arial,sans-serif;
+    color: blue;
+}
+.email:visited{
+  color: purple;
+}
+.email:hover{
+  color: rgb(108, 4, 4);
+}
+.email:active{
+  color: rgb(2, 46, 2);
 }
