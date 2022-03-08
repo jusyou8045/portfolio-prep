@@ -4,7 +4,7 @@
   }
   
   body{
-    background: #e1eaed;
+    background: #7d959d;
   }
 
   .banner, 
@@ -50,6 +50,9 @@
 
   .moveit{
   text-align: center;
+  font-size: 18pt;
+  font-family: 'open sans',arial,sans-serif;
+  padding-bottom: 5px;
 }
 
   .copy{
@@ -74,17 +77,12 @@ nav a:active {
   color: #4fd58b;
 }
 
-
 .email:link{
     font-family: 'open sans',arial,sans-serif;
-    color: blue;
+    color: black;
 }
 .email:visited{
   color: purple;
 }
-.email:hover{
-  color: rgb(108, 4, 4);
-}
-.email:active{
-  color: rgb(2, 46, 2);
+
 }
